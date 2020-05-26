@@ -19,7 +19,7 @@ while True:
 	current_time = time.localtime(time.time())
 	current_min = current_time[4]
 	current_sec = current_time[5]
-	if current_time[4] == 0:
+	if current_min == 0:
 		playsound(hour_audio)
 	else:
 		playsound(checkpoint_audio)
