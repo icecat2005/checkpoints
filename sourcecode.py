@@ -1,16 +1,13 @@
 import time
 from playsound import playsound
-
+current_time = time.localtime(time.time())
+current_min = current_time[4]
+current_sec = current_time[5]
 
 # User Set Up
 hour_audio = "dingding.wav by ljudman.mp3"
 checkpoint_audio = "ShipsBell.wav by acclivity.mp3"
 interval = 15
-current_time = time.localtime(time.time())
-current_min = current_time[4]
-current_sec = current_time[5]
-
-
 
 while True:
 
