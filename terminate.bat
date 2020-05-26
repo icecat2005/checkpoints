@@ -1,1 +1,1 @@
-nircmd.exe win close ititle "checkpoints"
+nircmd.exe win close title "checkpoints-cmd"
