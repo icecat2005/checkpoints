@@ -1,5 +1,5 @@
 # Checkpoints
-Plays bell audio every 15 minutes
+Plays bell audio at 15 minute multiples of the hour. 
 
 
 # How to run
