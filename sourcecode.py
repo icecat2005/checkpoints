@@ -1,7 +1,6 @@
 import time
 from playsound import playsound
-from pydub import AudioSegment
-from pydub.playback import play
+
 
 # User Set Up
 hour_audio = "dingding.wav by ljudman.mp3"
